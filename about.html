@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - LED Junk Removal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-sm z-40">
+        <div class="max-w-7xl mx-auto px-6 md:px-10 py-6 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2">
+                <div class="bg-black text-[#facb11] p-2 rounded-lg font-logo text-xl tracking-tighter uppercase leading-none transform -rotate-2">
+                    LED
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-logo text-xs tracking-tighter text-black uppercase leading-none">Junk</span>
+                    <span class="font-logo text-xs tracking-tighter text-black uppercase leading-none">Removal</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">Home</a>
+                <a href="services.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">Services</a>
+                <a href="about.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors text-brand-yellow">About</a>
+                <a href="contact.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">Contact</a>
+            </nav>
+
+            <a href="tel:9804023767" class="hidden lg:flex items-center space-x-3 bg-gray-50 px-6 py-3 rounded-full border border-gray-100 hover:shadow-md transition-all">
+                <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Call Now</span>
+                <span class="text-sm font-bold tracking-tight">(980) 402-3767</span>
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black z-50 flex flex-col p-10 hidden">
+        <button id="close-menu-btn" class="self-end text-brand-yellow mb-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <nav class="flex flex-col space-y-8">
+            <a href="index.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">Home</a>
+            <a href="services.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">Services</a>
+            <a href="about.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow border-b-2 border-brand-yellow inline-block">About</a>
+            <a href="contact.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- About Hero -->
+        <section class="py-24 bg-white border-b border-gray-100">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row items-center gap-20">
+                    <div class="flex-1 space-y-10">
+                        <div>
+                            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.4em] mb-4 italic">Our Story</p>
+                            <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight uppercase">We Clear Space, <span class="text-gray-400">You Clear Your Mind.</span></h1>
+                        </div>
+                        <div class="space-y-6 text-lg text-gray-500 leading-relaxed max-w-md">
+                            <p>Founded with a simple mission: to provide the most professional, reliable, and convenient junk removal service in the Rock Hill area.</p>
+                            <p>We saw a need for a hauling service that didn't just dump items, but treated every customer's space with respect and prioritize responsible disposal methods.</p>
+                        </div>
+                        <div class="flex space-x-12">
+                            <div>
+                                <p class="text-3xl font-logo tracking-tighter text-black uppercase">50+</p>
+                                <p class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Mile Radius</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-logo tracking-tighter text-black uppercase">100%</p>
+                                <p class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Locally Owned</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 relative">
+                        <div class="aspect-square rounded-lg overflow-hidden border-2 border-dashed border-gray-200 shadow-sm bg-gray-50 flex flex-col items-center justify-center p-12 text-center group">
+                            <div class="w-20 h-20 rounded-full bg-gray-100 mb-6 flex items-center justify-center border border-gray-200 group-hover:scale-110 transition-transform duration-500">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div class="space-y-2">
+                              <p class="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400">Team Photo</p>
+                              <p class="text-sm italic text-gray-300">Space reserved for the LED Junk Removal team</p>
+                            </div>
+                            <!-- Decorative dots -->
+                            <div class="absolute top-4 right-4 grid grid-cols-3 gap-1 opacity-20">
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                                <div class="w-1 h-1 bg-black rounded-full text-transparent">.</div>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-8 -left-8 p-10 bg-black text-brand-yellow rounded-md hidden lg:block shadow-2xl border-l-4 border-brand-yellow">
+                            <p class="text-2xl font-logo mb-1 italic uppercase tracking-tighter">"LED THE WAY"</p>
+                            <p class="text-xs uppercase tracking-widest font-bold text-gray-500 italic">Established in Rock Hill, SC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl font-bold tracking-tight uppercase italic mb-4">Why we do what we do</h2>
+                    <p class="text-gray-500 max-w-sm mx-auto uppercase tracking-widest text-[10px] font-bold">The core values that drive LED Junk Removal every single day.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div class="p-10 bg-white rounded-lg border border-gray-100 shadow-sm space-y-6">
+                        <div class="w-12 h-12 bg-black text-brand-yellow rounded-md flex items-center justify-center font-logo text-xl">01</div>
+                        <h3 class="text-xl font-bold uppercase tracking-tight">Integrity</h3>
+                        <p class="text-gray-500 leading-relaxed text-sm italic">We believe in honest pricing and doing exactly what we say we'll do, every single load.</p>
+                    </div>
+                    <div class="p-10 bg-white rounded-lg border border-gray-100 shadow-sm space-y-6">
+                        <div class="w-12 h-12 bg-brand-yellow text-black rounded-md flex items-center justify-center font-logo text-xl">02</div>
+                        <h3 class="text-xl font-bold uppercase tracking-tight">Service</h3>
+                        <p class="text-gray-500 leading-relaxed text-sm italic">Our crew is professional, uniformed, and trained to provide top-tier customer service from start to finish.</p>
+                    </div>
+                    <div class="p-10 bg-white rounded-lg border border-gray-100 shadow-sm space-y-6">
+                        <div class="w-12 h-12 bg-black text-brand-yellow rounded-md flex items-center justify-center font-logo text-xl">03</div>
+                        <h3 class="text-xl font-bold uppercase tracking-tight">Environment</h3>
+                        <p class="text-gray-500 leading-relaxed text-sm italic">We are committed to reducing landfill waste by donating and recycling as much as humanly possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-24">
+        <div class="max-w-7xl mx-auto px-10">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-16">
+                <div class="col-span-1 md:col-span-2 space-y-8">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="bg-[#facb11] text-black p-2 rounded-lg font-logo text-xl tracking-tighter uppercase leading-none transform -rotate-2">
+                            LED
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-logo text-xs tracking-tighter text-white uppercase leading-none">Junk</span>
+                            <span class="font-logo text-xs tracking-tighter text-white uppercase leading-none">Removal</span>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-[0.2em] mb-8 text-brand-yellow italic">Navigate</h3>
+                    <ul class="space-y-4">
+                        <li><a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Home</a></li>
+                        <li><a href="services.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Services</a></li>
+                        <li><a href="about.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">About</a></li>
+                        <li><a href="contact.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-[0.2em] mb-8 text-brand-yellow italic">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="text-sm text-gray-400 uppercase tracking-widest">(980) 402-3767 (EN)</li>
+                        <li class="text-sm text-gray-400 uppercase tracking-widest">(980) 327-8785 (ES)</li>
+                        <li class="text-sm text-gray-400 lowercase tracking-widest">info@ledjunkremoval.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-24 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <p class="text-xs text-gray-600 uppercase tracking-widest mb-4 md:mb-0">© 2025 LED Junk Removal LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

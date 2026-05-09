@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - LED Junk Removal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-sm z-40">
+        <div class="max-w-7xl mx-auto px-6 md:px-10 py-6 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2">
+                <div class="bg-black text-[#facb11] p-2 rounded-lg font-logo text-xl tracking-tighter uppercase leading-none transform -rotate-2">
+                    LED
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-logo text-xs tracking-tighter text-black uppercase leading-none">Junk</span>
+                    <span class="font-logo text-xs tracking-tighter text-black uppercase leading-none">Removal</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">Home</a>
+                <a href="services.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors text-brand-yellow">Services</a>
+                <a href="about.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">About</a>
+                <a href="contact.html" class="text-[10px] font-bold uppercase tracking-[0.2em] hover:text-brand-yellow transition-colors">Contact</a>
+            </nav>
+
+            <a href="tel:9804023767" class="hidden lg:flex items-center space-x-3 bg-gray-50 px-6 py-3 rounded-full border border-gray-100 hover:shadow-md transition-all">
+                <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Call Now</span>
+                <span class="text-sm font-bold tracking-tight">(980) 402-3767</span>
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black z-50 flex flex-col p-10 hidden">
+        <button id="close-menu-btn" class="self-end text-brand-yellow mb-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <nav class="flex flex-col space-y-8">
+            <a href="index.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">Home</a>
+            <a href="services.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow border-b-2 border-brand-yellow inline-block">Services</a>
+            <a href="about.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">About</a>
+            <a href="contact.html" class="text-4xl font-logo text-white uppercase tracking-tighter hover:text-brand-yellow">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Services Header -->
+        <section class="py-24 bg-black text-white text-center overflow-hidden relative">
+            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+            <div class="absolute top-0 left-0 w-full h-1 bg-brand-yellow"></div>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-5xl md:text-8xl font-logo tracking-tighter mb-8 italic uppercase outline-text">Our <span class="text-brand-yellow">Services</span></h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                    From residential cleanups to commercial debris removal, we provide a full range of services tailored to your needs.
+                </p>
+            </div>
+        </section>
+
+        <!-- Service Item 1: Garage Clean Out -->
+        <section id="garage" class="py-24 border-b border-gray-100 bg-white">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 01</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Garage Clean Out</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Clear out old boxes, tools, and clutter from your garage. We handle all the heavy lifting and disposal, leaving you with a clean, organized space.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Old Boxes</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Scrap Metal</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Broken Tools</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Hazardous Items*</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Cluttered storage space</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Swept and cleared space</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Item 2: Furniture Removal -->
+        <section id="furniture" class="py-24 border-b border-gray-100 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 02</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Furniture Removal</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Safe and efficient removal of old sofas, tables, and cabinets. We handle the heavy lifting while protecting your floors and doorways.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Old Sofas</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Dining Sets</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Mattresses</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Bed Frames</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Old sofas and heavy tables</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Clean floors and clear hallways</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Item 3: Construction Clean Out -->
+        <section id="construction" class="py-24 border-b border-gray-100 bg-white">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 03</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Construction Clean Out</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Debris removal for renovation and new construction projects. Tiles, drywall, wood scraps, and more—we clear it fast so you can finish the job.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Drywall Scraps</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Loose Tiles</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Wood/Lumber</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Packaging</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Debris and drywall scraps</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Ready-to-work job site</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Item 4: Backyard Cleanup -->
+        <section id="backyard" class="py-24 border-b border-gray-100 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 04</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Backyard Cleanup</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Remove old gazebos, garden debris, and shed contents. We help reclaim your outdoor living space by removing unwanted clutter.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Old Playsets</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Yard Waste</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Decking Scraps</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Broken Pots</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Overgrown clutter and old playsets</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Reclaimed outdoor space</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Item 5: Trash Bag Removal -->
+        <section id="trash" class="py-24 border-b border-gray-100 bg-white">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 05</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Trash Bag Removal</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Large volumes of bagged trash from move-outs, estate cleanups, or missed collections. We haul away any size load.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Household Bagged</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Recyclables</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Move-out Edits</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Cardboard Boxes</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Piles of household trash bags</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Completely removed and hauled</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Item 6: Appliance Disposal -->
+        <section id="appliances" class="py-24 border-b border-gray-100 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-10">
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-16">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Service 06</div>
+                            <h2 class="text-4xl font-bold tracking-tight mb-6 uppercase tracking-tighter">Appliance Disposal</h2>
+                            <p class="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">Responsible recycling of refrigerators, washers, and dryers. We make sure hazardous components are handled correctly.</p>
+                            <div class="grid grid-cols-2 gap-4 mb-10">
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Refrigerators</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Washing Machines</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Microwaves</span></div>
+                                <div class="flex items-center space-x-2 text-sm font-medium text-gray-800"><span class="w-1 h-1 bg-black rounded-full"></span><span>Ovens/Ranges</span></div>
+                            </div>
+                            <a href="contact.html" class="inline-flex items-center space-x-3 bg-black text-brand-yellow px-8 py-4 rounded-md font-bold hover:bg-gray-900 transition-all uppercase tracking-widest text-[10px] border border-black">
+                                <span>Get a Free Estimate</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full">
+                        <div class="w-full flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-gray-900 bg-white/80 px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">Before</div>
+                                <div class="text-gray-400 text-[10px] text-center italic">Old refrigerators and washers</div>
+                            </div>
+                            <div class="flex-1 aspect-video bg-brand-yellow/10 border-2 border-brand-yellow/30 rounded-lg flex flex-col items-center justify-center p-4 relative overflow-hidden group">
+                                <div class="text-brand-yellow bg-black px-2 py-0.5 rounded font-logo uppercase tracking-widest text-[10px] mb-2 font-bold">After</div>
+                                <div class="text-black/60 text-[10px] text-center italic">Responsibly recycled</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Note -->
+        <section class="py-24 bg-gray-900 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold mb-8 italic uppercase outline-text">Simple, Volume-Based Pricing</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="p-8 border border-white/10 rounded-3xl">
+                        <p class="text-gray-400 text-sm uppercase font-bold tracking-widest mb-2 italic">Minimum Load</p>
+                        <p class="text-2xl font-bold font-logo uppercase tracking-tighter">Single Item</p>
+                    </div>
+                    <div class="p-8 border border-white/20 rounded-3xl bg-white/5 backdrop-blur-md">
+                        <p class="text-gray-400 text-sm uppercase font-bold tracking-widest mb-2 italic text-brand-yellow">Standard Load</p>
+                        <p class="text-2xl font-bold font-logo uppercase tracking-tighter text-brand-yellow">1/2 Truck</p>
+                    </div>
+                    <div class="p-8 border border-white/10 rounded-3xl">
+                        <p class="text-gray-400 text-sm uppercase font-bold tracking-widest mb-2 italic">Max Load</p>
+                        <p class="text-2xl font-bold font-logo uppercase tracking-tighter">Full Truck</p>
+                    </div>
+                </div>
+                <p class="mt-12 text-gray-500 text-sm italic uppercase tracking-widest font-bold">Note: Extra fees apply for overweight items or locations beyond 50 miles of Rock Hill, SC.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-24">
+        <div class="max-w-7xl mx-auto px-10">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-16">
+                <div class="col-span-1 md:col-span-2 space-y-8">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="bg-[#facb11] text-black p-2 rounded-lg font-logo text-xl tracking-tighter uppercase leading-none transform -rotate-2">
+                            LED
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-logo text-xs tracking-tighter text-white uppercase leading-none">Junk</span>
+                            <span class="font-logo text-xs tracking-tighter text-white uppercase leading-none">Removal</span>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                  <ul class="space-y-4">
+                      <li><a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Home</a></li>
+                      <li><a href="services.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Services</a></li>
+                      <li><a href="about.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">About</a></li>
+                      <li><a href="contact.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors uppercase tracking-widest">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
